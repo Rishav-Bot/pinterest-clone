@@ -1,0 +1,73 @@
+body {
+  height: calc(100vh - 50px);
+  font-family: 'Gilroy';
+  letter-spacing: .1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #EEEEEE;
+}
+
+#profile-card {
+  width: 80%;
+  height: 250px;
+  margin: 30px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#info {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  line-height: .7;
+}
+
+#name {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#btn {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 200;
+  text-align: center;
+  width: 40%;
+  margin: 0;
+  padding: 5px;
+  background: #e80000;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background: #a00101;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: start;
+}
